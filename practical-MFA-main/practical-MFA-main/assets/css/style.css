@@ -1,0 +1,187 @@
+*{
+
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+ }
+ body{
+	margin: 0px;
+ }
+.header{
+    display: flex;
+	height: 100px;
+	flex-wrap: nowrap;
+	flex-direction: row;
+    justify-content: space-between;
+	align-items: center;
+}
+button{
+    width:120px;
+    height: 35px;
+    color: white;
+    background-color: #C05326;
+    font-weight: bold;
+	border: none;
+	border-radius: 7px;
+	padding: 8px;
+}
+#btn2{
+	background-color:aqua;
+	color: #C05326;
+}
+.btn1{
+	padding-right:32px;
+}
+ul li {
+    display: inline;
+    padding: 10px;
+}
+body > div.header > div {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.content{
+	display: flex;
+    margin-left: 40px;
+	padding: 30px;
+}
+.main{
+	flex-grow: 7;
+}
+
+.sidebar{
+	flex-grow: 3;
+}
+.alert{
+        padding: 20px;
+        margin: 10px;
+        background-color: #F7EAE4;
+        border-left: 3px solid #C05326;
+        border-radius: 3px;
+}
+.alert p{
+    transform: translateY(10px);
+    margin-left: 0px
+}
+ .text-highlight{
+    color: #C05326;
+    font-weight: bold;
+    font-size: 17px;
+}
+.hero{
+    background-image: url("../img/header-bike.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+    height:400px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 30px;
+    color: white;
+}
+.hero h1{
+	padding-bottom:0px;
+	font-size: 50px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.hero p{
+	font-size: 22px;
+}
+.cycle{
+    position: relative;
+    top: 100px;
+    margin-left: 20px;
+}
+.cycle p{
+    margin: 22px 0;
+    font-weight: bold;
+    }
+    .donate-bike{
+    width: 160px;
+    height: 30px;
+    color: white;
+    background-color: #C05326;
+    font-weight: bold;
+    border-radius: 5px;
+
+    }
+    .volunteer{
+     width: 110px;
+    height: 30px;
+    color: #C05326 ;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    }
+    .card{
+        height: 50vh;
+        margin-top: 20px;
+        }
+        .border:after {
+            content: '.';
+            display: block;
+            height: 1px;
+            width: 1350px;
+            margin: 0px auto;
+            border-bottom: 1px solid #585858;
+            margin-top:15px;
+          }
+body div a img{
+	background-color:white ;
+	height: 100px;
+	width: 150px;
+}
+ul li a:hover{
+	color:#ff0064;
+}
+ul li a{
+	color: black;
+    text-decoration: none;
+}
+.sidebar{
+    flex-grow: 3;
+    margin-right: 20px;
+}
+.article__title-link{
+    text-decoration: none;
+    color: #C05326;
+}
+.facebook-link{
+    padding: 10px;
+    color: #C05326;
+    float: right;
+}
+.heading-underline{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    border-bottom: 2px solid #F7EAE4 ;
+    margin:10px ;
+}
+.article {
+    padding: 10px;
+    margin: 20px 10px;
+    border: 2px solid #E4E4E4;
+}
+.article__thumbnail{
+    flex-grow: 4;
+    width: 90px;
+    height: 60px;
+    align-self: center;
+    margin: 5px;
+}
+.article__content{
+    flex-grow: 6;
+    margin: 5px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.c1{
+    display: flex;
+}
